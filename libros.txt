@@ -1,0 +1,50 @@
+1;El Alquimista;Paulo Coelho;Disponible
+2;1984;George Orwell;Disponible
+3;El Principito;Antoine de Saint-Exupéry;Disponible
+4;Cien años de soledad;Gabriel García Márquez;Disponible
+5;Don Quijote de la Mancha;Miguel de Cervantes;Disponible
+6;Orgullo y prejuicio;Jane Austen;Disponible
+7;El gran Gatsby;F. Scott Fitzgerald;Disponible
+8;Crónica de una muerte anunciada;Gabriel García Márquez;Disponible
+9;Moby Dick;Herman Melville;Disponible
+10;El viejo y el mar;Ernest Hemingway;Disponible
+11;Los miserables;Victor Hugo;Disponible
+12;El amor en los tiempos del cólera;Gabriel García Márquez;Disponible
+13;La casa de los espíritus;Isabel Allende;Disponible
+14;Fahrenheit 451;Ray Bradbury;Disponible
+15;La sombra del viento;Carlos Ruiz Zafón;Disponible
+16;Cien años de soledad;Gabriel García Márquez;Disponible
+17;El túnel;Ernesto Sabato;Disponible
+18;El retrato de Dorian Gray;Oscar Wilde;Disponible
+19;La odisea;Homero;Disponible
+20;El Principito;Antoine de Saint-Exupéry;Disponible
+21;Las aventuras de Tom Sawyer;Mark Twain;Disponible
+22;El proceso;Franz Kafka;Disponible
+23;Crimen y castigo;Fiódor Dostoyevski;Disponible
+24;La metamorfosis;Franz Kafka;Disponible
+25;Cumbres borrascosas;Emily Brontë;Disponible
+26;El conde de Montecristo;Alexandre Dumas;Disponible
+27;En busca del tiempo perdido;Marcel Proust;Disponible
+28;El amor en los tiempos del cólera;Gabriel García Márquez;Disponible
+29;La tregua;Mario Benedetti;Disponible
+30;Rayuela;Julio Cortázar;Disponible
+31;El ruido y la furia;William Faulkner;Disponible
+32;La peste;Albert Camus;Disponible
+33;El extranjero;Albert Camus;Disponible
+34;1984;George Orwell;Disponible
+35;El guardián entre el centeno;J.D. Salinger;Disponible
+36;El alquimista;Paulo Coelho;Disponible
+37;Los tres mosqueteros;Alexandre Dumas;Disponible
+38;El jardín secreto;Frances Hodgson Burnett;Disponible
+39;El lobo estepario;Hermann Hesse;Disponible
+40;La insoportable levedad del ser;Milan Kundera;Disponible
+41;Los ojos del perro siberiano;Antonio Garrido;Disponible
+42;La casa de los espíritus;Isabel Allende;Disponible
+43;El túnel;Ernesto Sabato;Disponible
+44;El juego del ángel;Carlos Ruiz Zafón;Disponible
+45;La sombra del viento;Carlos Ruiz Zafón;Disponible
+46;El hombre en busca de sentido;Viktor Frankl;Disponible
+47;Mujer en punto cero;Nawal El Saadawi;Disponible
+48;Siddhartha;Hermann Hesse;Disponible
+49;La vida es sueño;Pedro Calderón de la Barca;Disponible
+50;Cien años de soledad;Gabriel García Márquez;Disponible
