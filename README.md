@@ -21,6 +21,7 @@ Para correr el programa, es necesario ejecutar el siguiente comando en la termin
 ## Descripción de las Clases y Estructuras
 - *Libro:* Representa un libro con atributos como ID, título, autor y estado de disponibilidad.
 - *Usuario:* Representa un usuario con atributos para el nombre y la contraseña.
+
 **Funciones:**
   1. *cargarLibros():* Carga la información de los libros desde el archivo libros.txt.
   2. *cargarUsuarios():* Carga la información de los usuarios desde el archivo usuarios.txt.
@@ -43,28 +44,28 @@ El sistema muestra mensajes informativos sobre el estado de las operaciones real
 ## SICT0301: Evalúa los componentes
 
 *Hace un análisis de complejidad correcto y completo para los algoritmos de ordenamiento usados en el programa.*
-He realizado un análisis de complejidad para las operaciones de búsqueda y ordenamiento en la gestión de libros. La búsqueda de un libro por ID tiene una complejidad de O(n) en el peor de los casos, mientras que el ordenamiento de libros se realiza utilizando sort, que tiene una complejidad promedio de O(n log n).
+He realizado un análisis de complejidad para las operaciones de búsqueda y ordenamiento en la gestión de libros. La búsqueda de un libro por ID tiene una complejidad de O(n) en el peor de los casos, mientras que el ordenamiento de libros se realiza utilizando sort, que tiene una complejidad promedio de O(n log n). Línea 56 del main.cpp. 
 
 *Hace un análisis de complejidad correcto y completo de todas las estructuras de datos y cada uno de sus usos en el programa.*
-Se ha utilizado un vector para almacenar los libros, lo que permite un acceso rápido a los elementos y un crecimiento dinámico. La pila se utiliza para gestionar las devoluciones, permitiendo un acceso eficiente a los libros devueltos en el orden en que fueron devueltos.
+Se ha utilizado un vector para almacenar los libros, lo que permite un acceso rápido a los elementos y un crecimiento dinámico. La pila se utiliza para gestionar las devoluciones, permitiendo un acceso eficiente a los libros devueltos en el orden en que fueron devueltos. Línea 10 del main.cpp. 
 
 *Hace un análisis de complejidad correcto y completo para todos los demás componentes del programa y determina la complejidad final del programa.*
-He analizado la complejidad de las funciones que manejan la carga de datos y la gestión de usuarios, determinando que las operaciones de lectura y escritura de archivos tienen una complejidad de O(n), donde n es el número de líneas en los archivos.
+He analizado la complejidad de las funciones que manejan la carga de datos y la gestión de usuarios, determinando que las operaciones de lectura y escritura de archivos tienen una complejidad de O(n), donde n es el número de líneas en los archivos. Línea 20 del main.cpp. 
 
 ## SICT0302: Toma decisiones
 
 *Selecciona un algoritmo de ordenamiento adecuado al problema y lo usa correctamente.*
-He optado por utilizar el algoritmo sort de la biblioteca estándar de C++, que es eficiente y adecuado para el tamaño de los datos manejados en este proyecto. Esto asegura un rendimiento óptimo al ordenar la lista de libros, manteniendo una complejidad promedio de O(n log n).
+He optado por utilizar el algoritmo sort de la biblioteca estándar de C++, que es eficiente y adecuado para el tamaño de los datos manejados en este proyecto. Esto asegura un rendimiento óptimo al ordenar la lista de libros, manteniendo una complejidad promedio de O(n log n). Línea 56 del main.cpp
 
 *Selecciona una estructura de datos adecuada al problema y la usa correctamente.*
-He elegido utilizar un vector para almacenar los libros debido a su capacidad de crecimiento dinámico y facilidad de acceso. Esto permite realizar operaciones de búsqueda y ordenamiento de manera eficiente. Además, he utilizado una pila (stack) para gestionar las devoluciones de libros, lo que permite un manejo eficiente siguiendo el principio LIFO (Last In, First Out).
+He elegido utilizar un vector para almacenar los libros debido a su capacidad de crecimiento dinámico y facilidad de acceso. Esto permite realizar operaciones de búsqueda y ordenamiento de manera eficiente. Además, he utilizado una pila (stack) para gestionar las devoluciones de libros, lo que permite un manejo eficiente siguiendo el principio LIFO (Last In, First Out). Línea 10 del main.cpp
 
 ## SICT0303: Implementa acciones científicas
 *Implementa mecanismos para consultar información de las estructras correctos.*
-He implementado funciones que permiten a los usuarios consultar la información de los libros disponibles y realizar operaciones de préstamo y devolución. Estas funciones son intuitivas y aseguran que los usuarios puedan acceder a la información relevante de manera rápida y eficiente.
+He implementado funciones que permiten a los usuarios consultar la información de los libros disponibles y realizar operaciones de préstamo y devolución. Estas funciones son intuitivas y aseguran que los usuarios puedan acceder a la información relevante de manera rápida y eficiente. Líneas 45-50 del  main.cpp. 
 
 *Implementa mecanismos de lectura de archivos para cargar datos a las estructuras de manera correcta.*
-He desarrollado mecanismos de lectura de archivos que permiten cargar correctamente los datos desde libros.txt y usuarios.txt. Utilizo un ciclo que recorre cada línea del archivo, extrayendo la información necesaria y almacenándola en las estructuras de datos adecuadas. Esto garantiza que la información esté organizada y lista para ser utilizada en el programa.
+He desarrollado mecanismos de lectura de archivos que permiten cargar correctamente los datos desde libros.txt y usuarios.txt. Utilizo un ciclo que recorre cada línea del archivo, extrayendo la información necesaria y almacenándola en las estructuras de datos adecuadas. Esto garantiza que la información esté organizada y lista para ser utilizada en el programa. Líneas 20-25 del main.cpp. 
 
 *Implementa mecanismos de escritura de archivos para guardar los datos  de las estructuras de manera correcta.*
-He implementado un mecanismo de escritura en archivos que permite guardar de forma precisa y organizada los datos de los libros y usuarios. Al finalizar la sesión, se actualizan los archivos libros.txt y usuarios.txt para reflejar los cambios en la disponibilidad de los libros y la información de los usuarios. Esto asegura que la información se mantenga persistente entre sesiones y que los datos sean consistentes.
+He implementado un mecanismo de escritura en archivos que permite guardar de forma precisa y organizada los datos de los libros y usuarios. Al finalizar la sesión, se actualizan los archivos libros.txt y usuarios.txt para reflejar los cambios en la disponibilidad de los libros y la información de los usuarios. Esto asegura que la información se mantenga persistente entre sesiones y que los datos sean consistentes.Líneas 70-75 del main.cpp. 
